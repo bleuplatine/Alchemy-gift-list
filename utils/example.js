@@ -9,7 +9,7 @@ const merkleTree = new MerkleTree(niceList);
 const root = merkleTree.getRoot();
 console.log('root >>>', root)
 
-// find the proof that norman block is in the list 
+// find the proof that David Vincent is in the list 
 const name = 'David Vincent';
 const index = niceList.findIndex(n => n === name);
 console.log('index >>>', index)
